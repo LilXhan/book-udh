@@ -1,0 +1,213 @@
+
+
+
+/* Estilos generales */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+/* navBar */
+
+.navbar {
+    padding: 1rem;
+    background-color: white;
+}
+
+
+/* media query para ocultar logo de icono en diapositivos pequeños */
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-img {
+        max-width: 600px;
+    }
+}
+
+
+/* Seccion hero */
+
+.hero {
+    background-color: white;
+    min-height: 450px;
+}
+
+.hero-principal {
+    margin-top: 30px;
+    padding: 3rem
+}
+
+
+.hero-img-cuaderno {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 8px 18px;
+    border-radius: 20%;
+}
+
+.hero-principal h2 {
+    font-size: 1.2rem;
+    color: #615151;
+}
+
+.hero-inferior img {
+    height: 342px;
+    width: 500px;
+}
+
+
+/* about book */
+
+.sobre {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre .contenedor {
+    max-width: 600px;
+    text-align: center; 
+}
+
+
+/* clases */
+
+.clases {
+    padding: 40px 40px 60px 40px;
+}
+
+
+.clase-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.clases i {
+    font-size: 2.5rem;
+    color: white;
+    background-color: #0a0a23;
+    padding: 8px 18px;
+    border-radius: 50%;
+}
+
+.container a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.clases .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.clases .columna:hover {
+    color: white;
+    background-color: #1b1b32; 
+}
+
+/** 2da parte **/
+
+.proyectos-recientes {
+    padding: 40px;
+}
+
+
+/** Carusel **/
+
+.carousel-caption h5 {
+    font-weight: bold;
+    font-size: 30px;
+    -webkit-text-stroke: 1px white;
+}
+
+.carousel-caption p {
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-text-stroke: 1px white;
+}
+
+@media screen and (max-width: 767px) {
+    img {
+        height: 300px;
+    }
+    .carousel-caption h5 {
+        font-size: 15px;
+    }
+    .carousel-caption p {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    img {
+        height: 200px;
+    }
+    .carousel-caption h5 {
+        font-size: 10px;
+        -webkit-text-stroke: 0.5px white;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+        -webkit-text-stroke: 0.5px white;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    img {
+        height: 150px;
+    }
+    .carousel-caption h5 {
+        font-size: 10px;
+        -webkit-text-stroke: 0.5px white;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+        -webkit-text-stroke: 0.5px white;
+    }
+}
+
