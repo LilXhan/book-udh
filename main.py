@@ -6,3 +6,8 @@ app = create_app()
 @app.errorhandler(404)
 def index(error):
     return redirect(url_for('app_router.index'))
+
+
+
+if __name__ == "__main__":
+    app.run()
