@@ -1,6 +1,3 @@
-
-
-
 /* Estilos generales */
 
 section {
@@ -104,7 +101,7 @@ h1 {
 
 .sobre .contenedor {
     max-width: 600px;
-    text-align: center; 
+    text-align: center;
 }
 
 
@@ -146,7 +143,7 @@ h1 {
 
 .clases .columna:hover {
     color: white;
-    background-color: #1b1b32; 
+    background-color: #1b1b32;
 }
 
 /** 2da parte **/
@@ -156,58 +153,78 @@ h1 {
 }
 
 
-/** Carusel **/
+/* Articulos */
 
-.carousel-caption h5 {
+.articulos {
+    min-height: 500px;
+    padding: 30px;
+}
+
+.articulos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articulos .card-header {
     font-weight: bold;
-    font-size: 30px;
-    -webkit-text-stroke: 1px white;
 }
 
-.carousel-caption p {
+/* ejercicios */
+
+.proyectos-recientes {
+    padding: 40px;
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid black;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
     font-weight: bold;
-    font-size: 20px;
-    -webkit-text-stroke: 1px white;
+    margin-bottom: 0;
 }
 
-@media screen and (max-width: 767px) {
-    img {
-        height: 300px;
-    }
-    .carousel-caption h5 {
-        font-size: 15px;
-    }
-    .carousel-caption p {
-        font-size: 15px;
-    }
+.proyecto {
+    position: relative;
 }
 
-
-@media screen and (max-width: 500px) {
-    img {
-        height: 200px;
-    }
-    .carousel-caption h5 {
-        font-size: 10px;
-        -webkit-text-stroke: 0.5px white;
-    }
-    .carousel-caption p {
-        font-size: 10px;
-        -webkit-text-stroke: 0.5px white;
-    }
+.proyecto img {
+    opacity: 0.2;
 }
 
-@media screen and (max-width: 350px) {
-    img {
-        height: 150px;
-    }
-    .carousel-caption h5 {
-        font-size: 10px;
-        -webkit-text-stroke: 0.5px white;
-    }
-    .carousel-caption p {
-        font-size: 10px;
-        -webkit-text-stroke: 0.5px white;
-    }
+.proyecto .overlay {
+    opacity: 1;
 }
 
+.overlay .iconos-contenedor {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
