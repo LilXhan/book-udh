@@ -12,7 +12,7 @@
           <!-- Ejercicio -->
           <div class="col-12 col-md-4">
             <div class="proyecto">
-              <img src="{{url_for('static', filename='img/generic/analisis.jpg')}}" alt="Proyecto 1">
+              <img class="img_ejercicio" src="{{url_for('static', filename='img/generic/analisis.jpg')}}" alt="Proyecto 1">
               <div class="overlay">
                 <p>Ejercicio</p>
                 <!-- Button trigger modal -->
@@ -45,7 +45,7 @@
           <!-- Analisis -->
           <div class="col-12 col-md-4">
             <div class="proyecto">
-              <img src="{{url_for('static', filename='img/generic/analisis.jpg')}}" alt="Proyecto 1">
+              <img class="img_ejercicio" src="{{url_for('static', filename='img/generic/analisis.jpg')}}" alt="Proyecto 1">
               <div class="overlay">
                 <p>Análisis</p>
                 <!-- Button trigger modal -->
@@ -63,7 +63,16 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      ...
+                      <div class="modal-body-img">
+                        {% if exercise.img_analisis_parte1 %}
+                        <div class="d-flex flex-column">
+                          <img class="img_analisis" src="{{url_for('static', filename=exercise.img_analisis_parte1)}}">                    
+                          <img class="img_analisis" src="{{url_for('static', filename=exercise.img_analisis_parte2)}}">
+                        </div>
+                        {% else %}
+                        <img class="img_analisis" src="{{url_for('static', filename=exercise.img_analisis)}}">
+                        {% endif %}
+                      </div>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -76,7 +85,7 @@
           <!-- DFD -->
           <div class="col-12 col-md-4">
             <div class="proyecto">
-              <img src="{{url_for('static', filename='img/generic/analisis.jpg')}}" alt="Proyecto 1">
+              <img class="img_ejercicio" src="{{url_for('static', filename='img/generic/analisis.jpg')}}" alt="Proyecto 1">
               <div class="overlay">
                 <p>DFD</p>
                 <!-- Button trigger modal -->
