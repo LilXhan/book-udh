@@ -1,0 +1,117 @@
+
+<div class="container text-center">
+
+  {% for exercise in lista_1 %}
+  
+    <!-- Ejercicios -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2>{{ exercise.titulo }}</h2>
+      <!-- Galeria de Ejercicios -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Ejercicio -->
+          <div class="col-12 col-md-4">
+            <div class="proyecto">
+              <img src="{{url_for('static', filename='img/generic/analisis.jpg')}}" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Ejercicio</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exerciseModal{{exercise.id}}">
+                  Mostrar
+                </button>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="exerciseModal{{exercise.id}}" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">{{ exercise.titulo }}</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" style="text-align: justify;">
+                      {% for line in exercise.description %}
+                      <p>{{line}}</p>
+                      {% endfor %}
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>       
+          <!-- Analisis -->
+          <div class="col-12 col-md-4">
+            <div class="proyecto">
+              <img src="{{url_for('static', filename='img/generic/analisis.jpg')}}" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Análisis</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#analisisModal{{exercise.id}}">
+                  Mostrar
+                </button>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="analisisModal{{exercise.id}}" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Análisis</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- DFD -->
+          <div class="col-12 col-md-4">
+            <div class="proyecto">
+              <img src="{{url_for('static', filename='img/generic/analisis.jpg')}}" alt="Proyecto 1">
+              <div class="overlay">
+                <p>DFD</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#dfdModal{{exercise.id}}">
+                  Mostrar
+                </button>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="dfdModal{{exercise.id}}" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">DFD</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Descargar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+  
+  
+  {% endfor %}
+  
+</div>
+
