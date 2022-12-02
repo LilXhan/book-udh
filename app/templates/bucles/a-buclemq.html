@@ -13,10 +13,8 @@
     <div class="container text-center">
       <div class="row">
         <div class="columna col-12">
-          <p class="clase-titulo">¿Qué es una condición?</p>
-          <p style="text-align:justify;">Las estructuras condicionales sirven para la toma de decisiones en los algoritmos: Si ocurre algo entonces ejecutamos unas sentencias y en caso contrario ejecutamos otras.
-            Toda toma de decisión tiene una evaluación a realizar para, en función de ella, tomar la decisión. Esa evaluación generalmente compara una variable con otra o contra otro valor, para que en base al resultado de esta comparación, se siga un curso de acción dentro del programa.
-            Cabe mencionar que la comparación se puede hacer contra otra variable o contra una constante, según se necesite.    
+          <p class="clase-titulo">¿Qué es un bucle?</p>
+          <p style="text-align:justify;">Un bucle "while" o "mientras que" tiene asociado un bloque de sentencias que se ejecutarán secuencialmente mientras la condición de entrada al bucle sea cierta. La condición se evalúa al comienzo de la estructura. Esto supone que el bloque de instrucciones puede no ejecutarse ninguna vez si la condición es inicialmente falsa.    
           </p>
         </div>
       </div>
@@ -29,4 +27,27 @@
 
 {% block exercises %}
   {% include 'includes/exercises.html' %}
+{% endblock %}
+
+{% block bibliography %}
+<div class="container">
+  <!-- Bibliografia -->
+  <section class="articulos justify-content-center">
+    <h2 class="seccion-titulo texto-negro">Bibliografia</h2>
+    <div class="card">
+      <div class="card-header">
+        Links
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="https://www2.eii.uva.es/fund_inf/cpp/temas/6_control_flujo_iterativo/while.html#:~:text=Un%20bucle%20while%20tiene%20asociado,la%20condici%C3%B3n%20es%20inicialmente%20falsa."
+          target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Bucle While
+          </li>
+        </a>
+      </ul>
+    </div>
+  </section>
+</div>
+
 {% endblock %}

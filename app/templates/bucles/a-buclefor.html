@@ -13,10 +13,8 @@
     <div class="container text-center">
       <div class="row">
         <div class="columna col-12">
-          <p class="clase-titulo">¿Qué es una condición?</p>
-          <p style="text-align:justify;">Las estructuras condicionales sirven para la toma de decisiones en los algoritmos: Si ocurre algo entonces ejecutamos unas sentencias y en caso contrario ejecutamos otras.
-            Toda toma de decisión tiene una evaluación a realizar para, en función de ella, tomar la decisión. Esa evaluación generalmente compara una variable con otra o contra otro valor, para que en base al resultado de esta comparación, se siga un curso de acción dentro del programa.
-            Cabe mencionar que la comparación se puede hacer contra otra variable o contra una constante, según se necesite.    
+          <p class="clase-titulo">¿Qué es un bucle for?</p>
+          <p style="text-align:justify;">La estructura repetitiva "for" o "para" es aquella en la que el número de iteraciones se conoce por anticipado, y por ello no se precisa poner ninguna condición de salida para detener el bucle. En su lugar un contador cuenta el número de iteraciones fijas y se termina cuando llega al valor final previamente definido.  
           </p>
         </div>
       </div>
@@ -28,4 +26,27 @@
 
 {% block exercises %}
  {% include 'includes/exercises.html' %}
+{% endblock %}
+
+{% block bibliography %}
+<div class="container">
+  <!-- Bibliografia -->
+  <section class="articulos justify-content-center">
+    <h2 class="seccion-titulo texto-negro">Bibliografia</h2>
+    <div class="card">
+      <div class="card-header">
+        Links
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="https://virtual.itca.edu.sv/Mediadores/dlp/252_la_estructura_for.html"
+          target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">
+            La estructura FOR
+          </li>
+        </a>
+      </ul>
+    </div>
+  </section>
+</div>
+
 {% endblock %}
