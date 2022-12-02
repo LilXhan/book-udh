@@ -1,0 +1,69 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+19
+'INGRESE UN NUMERO'
+5
+1
+1
+N
+6
+1
+9
+CONT_CERO
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+1
+N
+1
+1
+1
+6
+1
+7
+RESIDUO
+7
+N MOD i
+7
+0
+1
+11
+RESIDUO = 0
+13
+6
+1
+9
+CONT_CERO
+13
+CONT_CERO + 1
+13
+10
+7
+0
+1
+13
+CONT_CERO = 2
+4
+1
+23
+'EL NUMERO NO ES PRIMO'
+13
+4
+1
+20
+'EL NUMERO ES PRIMO'
+13
+1

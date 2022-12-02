@@ -1,0 +1,37 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+47
+'CALCULANDO LA DIVISION DE DOS NUMEROS ENTEROS'
+4
+1
+24
+'INGRESE EL NUMERADOR: '
+5
+1
+1
+a
+4
+1
+26
+'INGRESE EL DENOMINADOR: '
+5
+1
+1
+b
+6
+1
+1
+d
+3
+a/b
+4
+1
+15
+a,'/',b,' = ',d
+1

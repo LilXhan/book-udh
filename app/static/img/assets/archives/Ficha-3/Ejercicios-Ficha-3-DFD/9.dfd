@@ -1,0 +1,50 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+27
+'INGRESE UN NUMERO NATURAL'
+5
+1
+1
+N
+6
+1
+1
+i
+1
+1
+9
+1
+6
+i <= N
+6
+3
+6
+RAIZ_C
+7
+sqrt(i)
+8
+CUADRADO
+3
+i^2
+4
+CUBO
+3
+i^3
+4
+1
+105
+'EL NUMERO ES ',i,' Y SU RAIZ CUADRADA ES: ',RAIZ_C,' , AL CUADRADO ES: ',CUADRADO,' Y AL CUBO ES: ',CUBO
+6
+1
+1
+i
+3
+i+1
+11
+1

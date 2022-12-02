@@ -1,0 +1,59 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+200
+'CALCULANDO EL PROMEDIO FINAL DE UN ESTUDIANTE, SABIENDO QUE EL PROMEDIO DE LAS TAREAS ACADEMICAS EQUIVALE EL 60%, EL EXAMEN DE MEDIO CURSO EQUIVALE EL 15% Y EL EXAMEN DE FIN DE CURSO EQUIVALE EL 25%'
+4
+1
+44
+'Digite elpromedio de sus tareas academicas'
+5
+1
+3
+PTA
+4
+1
+44
+'Digite la nota de su examen de medio curso'
+5
+1
+3
+NEM
+4
+1
+45
+'Digite la nota de su examen de fin de curso'
+5
+1
+3
+NEF
+6
+3
+2
+TA
+12
+(60/100)*PTA
+3
+EMC
+12
+(15/100)*NEM
+3
+EFC
+12
+(25/100)*NEF
+6
+1
+2
+PF
+10
+TA+EMC+EFC
+4
+1
+27
+'EL PROMEDIO FINAL ES: ',PF
+1

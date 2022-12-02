@@ -1,0 +1,71 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+34
+'CUANTOS ELEMENTOS DESEA INGRESAR'
+5
+1
+1
+N
+6
+1
+4
+SUMA
+1
+0
+8
+1
+1
+i
+1
+1
+0
+1
+3
+N-1
+1
+1
+1
+4
+1
+9
+'DATO ',i
+5
+1
+4
+X(i)
+10
+8
+1
+1
+i
+1
+3
+N-1
+1
+1
+0
+1
+2
+-1
+4
+1
+20
+'DATO ',i,' : ',X(i)
+6
+1
+4
+SUMA
+11
+SUMA + X(i)
+10
+4
+1
+48
+'LA SUMA DE LOS ELEMENTOS DEL ARREGLO ES: ',SUMA
+1
