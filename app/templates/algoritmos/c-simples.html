@@ -1,82 +1,40 @@
 {% extends 'base.html' %}
 
-{% block title %} {{super()}}Simples {% endblock %}
+{% block title %} {{super()}}Algoritmos C++ {% endblock %}
 
 {% block teorhy %}
 
 <div class="container">
   <section class="proyectos-recientes seccion-clara d-flex flex-column text-center">
-    <h2 class="seccion-titulo texto-negro">Algoritmos Simples</h2>
+    <h2 class="seccion-titulo texto-negro">Algoritmos en C++</h2>
   </section>
 
   <section class="clases seccion-clara">
     <div class="container text-center">
       <div class="row">
         <div class="columna col-12 col-md-6">
-          <p class="clase-titulo">¿Qué es un algoritmo?</p>
+          <p class="clase-titulo">¿Qué es un lenguaje de pogramación?</p>
           <hr>
-          <p style="text-align:justify;">Un algoritmo es una técnica que se utiliza para solucionar cálculos o problemas
-            abstractos mediante una serie de operaciones definidas, ordenadas y finitas. Esto quiere decir que, una
-            cantidad finita de pasos transforman los datos de una incógnita (entrada) en una solución (salida). Los
-            algoritmos, pueden ser representados a través de lenguajes de programación codificados, del lenguaje común y
-            por medio de representaciones gráficas (diagramas de flujo).</p>
-          <p style="font-style:italic;"><strong>(Johnsonbaugh, Algoritmos y Estructuras Discretas)</strong> </p>
+          <p style="text-align:justify;">Un lenguaje de programación, en palabras simples, es el conjunto de instrucciones a través del cual los humanos interactúan con las computadoras. Un lenguaje de programación nos permite comunicarnos con las computadoras a través de algoritmos e instrucciones escritas en una sintaxis que la computadora entiende e interpreta en lenguaje de máquina.</p>
           <hr>
-          <p style="text-align:justify;">“Conjunto de reglas que, aplicada sistemáticamente a unos datos de entrada
-            apropiados, resuelven un problema en un numero finito de pasos elementales”, según enuncia el profesor de la
-            Facultad de Informática de la Universidad Complutense Ricardo Peña Marí, autor a la sazón del libro De
-            Euclides a Java, la historia de los algoritmos y de los lenguajes de programación (Nívola). “Es importante
-            notar que el algoritmo tiene que ser finito y que ejecuta las instrucciones de manera sistemática, es decir,
-            que es ciego ante lo que está haciendo, y que los pasos con los que opera son elementales”, comenta el
-            profesor. </p>
-          <p style="font-style:italic;"><strong> (Fanjul, 2018)</strong> </p>
+          <p style="text-align:justify;">Los lenguajes de programación permiten a las computadoras procesar de forma rápida y eficientemente grandes y complejas cantidades de información. Por ejemplo, si a una persona se le da una lista de números aleatorios que van de uno a diez mil y se le pide que los coloque en orden ascendente, es probable que tome una cantidad considerable de tiempo e incluya algunos errores, mientras que, si le das la misma instrucción a una computadora utilizando un lenguaje de programación, podrás obtener la respuesta en unos cuantos segundos y sin errores.</p>
           <hr>
-          <p style="text-align:justify;">El algoritmo es una secuencia de instrucciones para asignación, control y
-            entrada/salida. El dispositivo de entrada permite la lectura de datos provistos desde el exterior del modelo
-            a través de la entrada estándar o de archivo(s) de entrada.</p>
-          <p style="font-style: italic;"><strong>(Martínez Morales & Rosquete de Mora, 2009)</strong></p>
+          <p style="text-align:justify;">Existen docenas de lenguajes de programación utilizados en la industria hoy en día. Algunos lenguajes de programación populares incluyen C++, C#, Visual Basic, Go, Ruby, JavaScript, Java y Python, por mencionar algunos. Cuando piensas en un lenguaje de programación, tal como en la analogía que hicimos antes, puedes compararlo con los lenguajes que utilizamos para comunicarnos porque comparten muchas características similares.</p>
         </div>
         <div class="columna col-12 col-md-6">
-          <p class="clase-titulo">Concepto de pseudocódigo</p>
-          <p style="text-align: justify;">En la informática, el pseudocódigo es una forma de describir instrucciones
-            lógicas que estructuralmente se asemeja a los lenguajes de programación. No obstante, el pseudocódigo se
-            creó con el fin de que las personas puedan leer y escribir dichas instrucciones de forma sencilla, donde en
-            la mayoría de los casos, se utiliza como estructura básica para el posterior desarrollo en un lenguaje de
-            programación propiamente dicho.</p>
-          <p class="clase-titulo">Concepto de diagrama de flujo (DFD)</p>
-          <p style="text-align: justify;">Un diagrama de flujo de datos (DFD) traza el flujo de la información para
-            cualquier proceso o sistema. Emplea símbolos definidos, como rectángulos, círculos y flechas, además de
-            etiquetas de texto breves, para mostrar las entradas y salidas de datos, los puntos de almacenamiento y las
-            rutas entre cada destino. Los diagramas de flujo de datos pueden variar desde simples panoramas de procesos
-            incluso trazados a mano, hasta DFD muy detallados y con múltiples niveles que profundizan progresivamente en
-            cómo se manejan los datos. Se pueden usar para analizar un sistema existente o para modelar uno nuevo. De
-            forma similar a todos los mejores diagramas y gráficos, un DFD puede con frecuencia "decir" visualmente
-            cosas que serían difíciles de explicar en palabras y funcionan para audiencias tanto técnicas como no
-            técnicas, desde desarrolladores hasta directores. Esa es la razón por la que los DFD siguen siendo tan
-            populares después de todos estos años.</p>
+          <p class="clase-titulo">Características del lenguaje de pogramación</p>
+          <p style="text-align: justify;">Para utilizar un lenguaje de programación, de manera efectiva, debemos estudiarlo y comprenderlo desde tres perspectivas:</p>
+          <ul style="text-align:justify">
+            <li><strong>Sintaxis:</strong> El conjunto de símbolos y reglas para formar sentencias.</li>
+            <li><strong>Semántica:</strong> Las reglas para transformar sentencias en instrucciones lógicas.</li>
+            <li><strong>Pragmática:</strong> Utilizando las construcciones particulares del lenguaje.</li>
+          </ul>
+          <p style="text-align: justify;">En español, las letras forman palabras que forman oraciones. En los lenguajes de programación, los caracteres forman sentencias que en conjunto forman instrucciones.</p>
+          <p class="clase-titulo">¿Para que sirve el lenguaje de programación?</p>
+          <p style="text-align:justify">Los lenguajes de programación se utilizan para crear sistemas operativos, programas de escritorio, aplicaciones móviles, para resolver problemas o interpretar datos. Por ejemplo, existen lenguajes de programación que son más adecuados para crear software o aplicaciones de entretenimiento, para crear dispositivos inteligentes hasta crear robots utilizando inteligencia artificial, los límites de lo que se puede lograr a través de los lenguajes de programación, son desconocidos.</p>
+          <p style="font-style: italic;"><strong>(Mendoza, 2020)</strong></p>
         </div>
-        <div class="columna col-12">
-          <p class="clase-titulo">¿Qué es un programa?</p>
-          <hr>
 
-          <p style="text-align: justify;">Un programa es un conjunto de pasos lógicos escritos en un lenguaje de
-            programación que nos permite realizar una tarea específica. El programa suele contar con una interfaz de
-            usuario, es decir, un medio visual mediante el cual interactuamos con la aplicación. Algunos ejemplos son la
-            calculadora, el navegador de internet, un teclado en pantalla para el celular, etc. Hoy encontramos
-            programas o aplicaciones que pueden ejecutarse en una computadora, notebooks, tablets y celulares. Estas
-            aplicaciones pueden ser escritas en diferentes lenguajes de programación. Como ejemplos encontramos C, Java,
-            PHP, Python, entre otros. Estos programas corren sobre un sistema operativo, por ejemplo, Windows, Linux,
-            Mac OS y Android entre otros.</p>
-          <p style="font-style: italic;"><strong>(Cilsa la inclusión nos une, s.f.)</strong></p>
-          <hr>
-          <p style="text-align:justify">Un programa está asociado intrínsecamente a la existencia de una computadora.
-            Las computadoras ejecutan programas. Los programas leen datos desde archivos, bases de datos, redes,
-            teclados, etc. y escriben datos en archivos, bases de datos, redes, pantallas, etc. Los programas son
-            ejecutados por el procesador de la computadora. Para ello tienen que ser cargados en la memoria principal
-            RAM. La carga de los programas en la memoria está a cargo de un tipo especial de programa o software llamado
-            sistema operativo.</p>
-          <p style="font-style: italic;"><strong>(edu4JAVA, s.f.)</strong></p>
-        </div>
 
       </div>
     </div>
@@ -99,34 +57,17 @@
 {% block bibliography %}
 <div class="container">
   <!-- Bibliografia -->
-  <section class="articulos justify-content-start">
+  <section class="articulos justify-content-center">
     <h2 class="seccion-titulo texto-negro">Bibliografia</h2>
     <div class="card">
       <div class="card-header">
         Links
       </div>
       <ul class="list-group list-group-flush">
-        <a href="https://elpais.com/retina/2018/03/22/tendencias/1521745909_941081.html#:~:text=%E2%80%9CConjunto%20de%20reglas%20que%2C%20aplicada,a%20Java%2C%20la%20historia%20de"
+        <a href="https://openwebinars.net/blog/que-es-un-lenguaje-de-programacion/"
           target="_blank" rel="noopener noreferrer">
           <li class="list-group-item">
-            En realidad, ¿qué es exactamente un algoritmo?
-          </li>
-        </a>
-        <a href="https://www.acta.es/medios/articulos/matematicas/035041.pdf" target="_blank" rel="noopener noreferrer">
-          <li class="list-group-item">
-            Libro-PDF (Algoritmos)
-          </li>
-        </a>
-        <a href="http://www.edu4java.com/es/conceptos/que-es-un-algoritmo-que-es-un-programa.html" target="_blank"
-          rel="noopener noreferrer">
-          <li class="list-group-item">
-            ¿Qué es un algoritmo y qué es un programa?
-          </li>
-        </a>
-        <a href="https://desarrollarinclusion.cilsa.org/tecnologia-inclusiva/que-es-un-programa/" target="_blank"
-          rel="noopener noreferrer">
-          <li class="list-group-item">
-            ¿Qué es un programa?
+            ¿Qué es un lenguaje de pogramación?
           </li>
         </a>
       </ul>

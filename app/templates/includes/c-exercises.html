@@ -18,9 +18,15 @@
       <p style="font-size: 14px;" class="text-danger">Para poder probar el ejercicio haga click en el boton de abajo <strong>Mostrar</strong> y click en el botón <strong>Run</strong>, en ese mismo lugar podra ver el código tan solo haga <strong>click en 'show files',</strong> y seleccione el archivo <strong>main.cpp.</strong> </p>
       </div>   
       <p>
+        {% if exercise.link_replit %}
         <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample{{exercise.id}}" aria-expanded="false" aria-controls="collapseExample{{exercise.id}}">
           Mostrar
         </button>
+        {% else %}
+        <button class="btn btn-dark" disabled type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample{{exercise.id}}" aria-expanded="false" aria-controls="collapseExample{{exercise.id}}">
+          Proximamente
+        </button>
+        {% endif %}
       </p>
 
 

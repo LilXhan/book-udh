@@ -190,14 +190,14 @@ def bucle_mq():
                 'description': ['Que permita el ingreso del nombre de un alumno y tres notas, imprimir su promedio y si está o no aprobado. Tener en cuenta que las notas deben estar en el rango de 0 a 20 solamente si no debe volver a pedir.'],
                 'img_analisis_parte1': 'img/assets/assets/03-Bucle-MQ/03-Análisis-1PT.png',
                 'img_analisis_parte2': 'img/assets/assets/03-Bucle-MQ/03-Análisis-2PT.png',
-                'dfd': 'app/static/img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/3.dfd'
+                'dfd': 'img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/3.dfd'
             },
             {
                 'id': 4,
                 'titulo': 'Ejercicio 4',
                 'description': ['Que pida un número y pregunte si desea continuar si o no; en caso afirmativo, que continúe pidiendo números, sino que se detenga e imprima la suma de todos los números ingresados.', "Nota el 's' o 'n' ingresados deben estar entre apóstrofes."],
                 'img_analisis': 'img/assets/assets/03-Bucle-MQ/04-Análisis.png',
-                'dfd': 'app/static/img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/4.dfd'
+                'dfd': 'img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/4.dfd'
             },
             {
                 'id': 5,
@@ -205,42 +205,42 @@ def bucle_mq():
                 'description': ['Modifique el algoritmo anterior para que al final también imprima la cantidad de datos ingresados y el promedio de los datos.'],
                 'img_analisis_parte1': 'img/assets/assets/03-Bucle-MQ/05-Análisis-1PT.png',
                 'img_analisis_parte2': 'img/assets/assets/03-Bucle-MQ/05-Análisis-2PT.png',
-                'dfd': 'app/static/img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/5.dfd'
+                'dfd': 'img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/5.dfd'
             },
             {
                 'id': 6,
                 'titulo': 'Ejercicio 6',
                 'description': ['Que imprima del 1 al 10 usando el bucle while o MQ (Mientras Que).'],
                 'img_analisis': 'img/assets/assets/03-Bucle-MQ/06-Análisis.png',
-                'dfd': 'app/static/img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/6.dfd'
+                'dfd': 'img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/6.dfd'
             },
             {
                 'id': 7,
                 'titulo': 'Ejercicio 7',
                 'description': ['Que imprima del N2 al N1 usando el bucle while o MQ (Mientras Que). Donde N2 > N1.'],
                 'img_analisis': 'img/assets/assets/03-Bucle-MQ/07-Análisis.png',
-                'dfd': 'app/static/img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/7.dfd'
+                'dfd': 'img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/7.dfd'
             },
             {
                 'id': 8,
                 'titulo': 'Ejercicio 8',
                 'description': ['Que realice la tabla de multiplicar del número N (del 1 al 20).'],
                 'img_analisis': 'img/assets/assets/03-Bucle-MQ/08-Análisis.png',
-                'dfd': 'app/static/img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/8.dfd'
+                'dfd': 'img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/8.dfd'
             },
             {
                 'id': 9,
                 'titulo': 'Ejercicio 9',
                 'description': ['Que muestre la raíz cuadrada, el cuadrado y el cubo de los N primeros números naturales.'],
                 'img_analisis': 'img/assets/assets/03-Bucle-MQ/09-Análisis.png',
-                'dfd': 'app/static/img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/9.dfd'
+                'dfd': 'img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/9.dfd'
             },
             {
                 'id': 10,
                 'titulo': 'Ejercicio 10',
                 'description': ['Que pida la cantidad de números a ingresar e imprima la suma de solo los números pares ingresados.'],
                 'img_analisis': 'img/assets/assets/03-Bucle-MQ/10-Análisis.png',
-                'dfd': 'app/static/img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/10.dfd'
+                'dfd': 'img/assets/archives/Ficha-3/Ejercicios-Ficha-3-DFD/10.dfd'
             },
     ]
     return render_template('bucles/a-buclemq.html', lista_1=lista_1)
