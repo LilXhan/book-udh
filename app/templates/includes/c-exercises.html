@@ -15,7 +15,7 @@
       {% for line in exercise.description %}
         <p style="font-size: 20;">{{line}}</p>
       {% endfor %}
-      <p style="font-size: 14px;" class="text-danger">Para poder probar el ejercicio haga click en el boton de abajo <strong>Mostrar</strong>, en ese mismo lugar podra ver el código tan solo haga <strong>click en 'show files',</strong> y seleccione el archivo <strong>main.cpp.</strong> </p>
+      <p style="font-size: 14px;" class="text-danger">Para poder probar el ejercicio haga click en el boton de abajo <strong>Mostrar</strong> y click en el botón <strong>Run</strong>, en ese mismo lugar podra ver el código tan solo haga <strong>click en 'show files',</strong> y seleccione el archivo <strong>main.cpp.</strong> </p>
       </div>   
       <p>
         <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample{{exercise.id}}" aria-expanded="false" aria-controls="collapseExample{{exercise.id}}">
@@ -27,7 +27,7 @@
     </section>
     <div class="collapse" id="collapseExample{{exercise.id}}">
       <div class="d-flex justify-content-center align-items-center">
-        <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@bryletucto/FrailThoroughVertex?embed=true"></iframe>
+        <iframe frameborder="0" width="100%" height="500px" src="{{exercise.link_replit}}"></iframe>
       </div>
     </div>
     <hr>
